@@ -1,0 +1,84 @@
+.fondo-rosa {
+    background-color: lightpink;
+}
+
+.fondo-claro{
+    background-color: lavenderblush;
+}
+
+.fondo-oscuro {
+    background-color: darkslateblue;
+}
+
+.letra-clara{
+    color: lavenderblush;
+}
+
+.letra-oscura{
+    color: darkslateblue;
+}
+
+#logo {
+    width: 115px;
+    height: 35px;
+    background: url('recursos/logo_mobile.svg') no-repeat center;
+    text-indent: -900px;
+    overflow: hidden;
+}
+
+h2 {
+    color: darkslateblue;
+}
+
+.navbar {
+    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='darkslateblue' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar .navbar-toggler{
+    border: none;
+    font-size: 1.2rem;
+}
+
+.navbar .navbar-toggler:focus {            
+    box-shadow: none;
+}
+
+#barra li a{
+    color: darkslateblue;
+    font-weight:600;
+    font-size:larger;
+}
+
+#barra li a:hover{
+    font-weight: bold;
+}
+
+#dos{
+    background-color: lavenderblush;
+    color: darkslateblue;
+}
+
+#uno{
+    background-color: rgb(72, 61, 139);
+    color: lavenderblush;
+}
+
+#tres{
+    background-color: lightpink;
+    color: darkslateblue;
+}
+
+.card-no-borde {
+    border: none;
+    color: darkslateblue;
+}
+
+
+
+@media screen and (min-width: 1200px){
+
+    #barra li{
+        padding: 0.5rem ;
+    }
+}
+
